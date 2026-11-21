@@ -1,4 +1,3 @@
-import { time } from "framer-motion";
 
 export const wedding = {
   groom: "Atul",
@@ -16,36 +15,42 @@ export const wedding = {
       label: "A BLESSED BEGINNING",
       name: "Tilak",
       date: "Saturday, 5 December 2026",
-      time:
+      venue:
         "Near Madarpur Primary School, Bihta Sermera Six Lane, Village Madarpur, PO – Jatt Dumari, PS – Punpun, Patna, Bihar – 804453",
+      mapLink: "https://maps.app.goo.gl/EVWQJcEmxKDecpsn9?g_st=iw",
     },
     {
       label: "A DAY OF TURMERIC & JOY",
       name: "Haldi",
       date: "Wednesday, 9 December 2026",
-      time:
+      venue:
         "Near Madarpur Primary School, Bihta Sermera Six Lane, Village Madarpur, PO – Jatt Dumari, PS – Punpun, Patna, Bihar – 804453",
+      mapLink: "https://maps.app.goo.gl/EVWQJcEmxKDecpsn9?g_st=iw",
     },
     {
       label: "COLOURS, MUSIC & CELEBRATION",
       name: "Mehndi & Sangeet",
       date: "Thursday, 10 December 2026",
-     
-      time:
+     venue:
         "Near Madarpur Primary School, Bihta Sermera Six Lane, Village Madarpur, PO – Jatt Dumari, PS – Punpun, Patna, Bihar – 804453",
+      mapLink: "https://maps.app.goo.gl/EVWQJcEmxKDecpsn9?g_st=iw",
     },
-    {
-      label: "THE WEDDING DAY",
-      name: "Baraat",
-      date: "Friday, 11 December 2026",
-      time: "Will depart at 9:00 am from Near Madarpur Primary School, Bihta Sermera Six Lane, Village Madarpur, PO – Jatt Dumari, PS – Punpun, Patna, Bihar – 804453",
-    },
+  {
+  label: "THE WEDDING DAY",
+  name: "Baraat",
+  date: "Friday, 11 December 2026",
+  time: "Will depart at 9:00 PM",
+  from: "Near Madarpur Primary School, Bihta Sermera Six Lane, Village Madarpur, PO – Jatt Dumari, PS – Punpun, Patna, Bihar – 804453",
+  to: "Sundar Vatika, Mahewa East, Naini, Prayagraj, Uttar Pradesh",
+  mapLink: "https://maps.app.goo.gl/EVWQJcEmxKDecpsn9?g_st=iw",
+},
     {
       label: "A NIGHT TO REMEMBER",
       name: "Reception",
       date: "Sunday, 13 December 2026",
-      time:
-        "Near Madarpur Primary School, Bihta Sermera Six Lane, Village Madarpur, PO – Jatt Dumari, PS – Punpun, Patna, Bihar – 804453",
+      venue:
+        "Pooja Marriage hall, Near MADARPUR PRIMARY SCHOOL, Bihta Sermera Six Lane, Village- Madarpur, PO- Jatt Dumari, PS- Punpun, Patna Bihar 804453",
+      mapLink: "https://maps.app.goo.gl/CYxDCJi5Pef2w8ng9?g_st=iw",
     },
   ],
 

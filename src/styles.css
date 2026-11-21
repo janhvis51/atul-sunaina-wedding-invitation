@@ -1,4 +1,3 @@
-
 :root {
   font-family: 'DM Sans', sans-serif;
   color: #f8eee5;
@@ -9,7 +8,12 @@
   --gold: #d8b574;
   --light-gold: #f0d49a;
   --cream: #f5ecdc;
+
+  --heading-font: 'Playfair Display', serif;
+  --body-font: 'DM Sans', sans-serif;
+  --script-font: 'Great Vibes', cursive;
 }
+
 
 * {
   box-sizing: border-box;
@@ -920,4 +924,233 @@ body {
     font-size: 7px;
     letter-spacing: 1.5px;
   }
+}
+
+/* ==========================================
+   GOOGLE MAPS VIEW LOCATION LINK
+========================================== */
+
+.venue-location {
+  margin-top: 14px;
+}
+
+.venue-location .venue {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font: italic 15px/1.5 "Cormorant Garamond", serif;
+  color: #7b6c58;
+  margin: 0;
+}
+
+.venue-location .venue svg {
+  flex-shrink: 0;
+  color: #a77c3e;
+  margin-top: 3px;
+}
+
+.view-location {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 12px;
+  padding: 8px 13px;
+  color: #8b632f;
+  background: #f5ead5;
+  border: 1px solid #d8b574;
+  border-radius: 3px;
+  text-decoration: none;
+  font: 600 10px "DM Sans", sans-serif;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.view-location:hover {
+  background: #d8b574;
+  color: #350d1d;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px #0002;
+}
+
+
+/* ==========================================
+   RSVP FORM — CLOSING PAGE
+========================================== */
+
+.rsvp-inline {
+  width: min(90%, 440px);
+  margin: 65px auto 10px;
+  padding-top: 40px;
+  border-top: 1px solid rgba(224, 190, 120, 0.35);
+}
+
+.rsvp-heading {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.rsvp-heading-heart {
+  color: #e5c17d;
+  margin-bottom: 15px;
+}
+
+.rsvp-heading .eyebrow {
+  color: #d8b574;
+}
+
+.rsvp-heading h3 {
+  color: #f5e8d4;
+  font: 400 38px "Cormorant Garamond", serif;
+  margin: 15px 0 8px;
+}
+
+.rsvp-heading h3 i {
+  color: #e5c17d;
+  font-family: "Great Vibes", cursive;
+  font-size: 1.2em;
+}
+
+.rsvp-heading p {
+  color: #d8bdad;
+  font: 17px/1.6 "Cormorant Garamond", serif;
+  margin: 12px auto 25px;
+  max-width: 380px;
+}
+
+.rsvp-form-inline {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  text-align: left;
+}
+
+.rsvp-form-inline label {
+  color: #e4c58a;
+  font-size: 9px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.rsvp-form-inline input,
+.rsvp-form-inline select,
+.rsvp-form-inline textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 14px;
+  color: #f8ead8;
+  background: rgba(255, 255, 255, 0.045);
+  border: 1px solid rgba(218, 183, 116, 0.55);
+  border-radius: 3px;
+  outline: none;
+  font: 14px "DM Sans", sans-serif;
+}
+
+.rsvp-form-inline input::placeholder,
+.rsvp-form-inline textarea::placeholder {
+  color: #c7aeb0;
+}
+
+.rsvp-form-inline select {
+  color-scheme: dark;
+}
+
+.rsvp-form-inline input:focus,
+.rsvp-form-inline select:focus,
+.rsvp-form-inline textarea:focus {
+  border-color: #f1d18b;
+  box-shadow: 0 0 12px #d8b57430;
+}
+
+.rsvp-form-inline textarea {
+  resize: vertical;
+  min-height: 90px;
+}
+
+.rsvp-gold-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 16px 12px;
+  margin-top: 10px;
+  border: 1px solid #f1d394;
+  border-radius: 2px;
+  background: linear-gradient(135deg, #e2c17d, #b98743);
+  color: #35101e;
+  font: 600 10px "DM Sans", sans-serif;
+  letter-spacing: 1.4px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.rsvp-gold-button:hover {
+  background: linear-gradient(135deg, #f5dfa9, #d5ad66);
+  box-shadow: 0 5px 22px #e0bd7344;
+  transform: translateY(-2px);
+}
+
+.rsvp-note {
+  color: #d8bd91;
+  font: italic 16px "Cormorant Garamond", serif;
+  margin-top: 25px;
+  text-align: center;
+}
+
+
+/* ==========================================
+   MOBILE RESPONSIVE
+========================================== */
+
+@media (max-width: 480px) {
+  .rsvp-inline {
+    width: 94%;
+    margin-top: 45px;
+    padding-top: 30px;
+  }
+
+  .rsvp-heading h3 {
+    font-size: 33px;
+  }
+
+  .rsvp-form-inline input,
+  .rsvp-form-inline select,
+  .rsvp-form-inline textarea {
+    font-size: 13px;
+  }
+
+  .rsvp-gold-button {
+    font-size: 9px;
+    letter-spacing: 1px;
+  }
+}
+/* Elegant wedding typography */
+
+.hero h1,
+.hero h2,
+.welcome h2,
+.countdown-section h2,
+.events-section h2,
+.closing-section h2,
+.event-content h3,
+.envelope-copy h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+}
+
+/* Keep romantic handwritten names */
+
+.signature,
+.script-intro,
+.welcome h2 i,
+.events-section h2 i,
+.closing-section h2 i {
+  font-family: 'Great Vibes', cursive;
+}
+
+/* Body text */
+
+body {
+  font-family: 'DM Sans', sans-serif;
 }

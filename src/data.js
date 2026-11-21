@@ -1,3 +1,4 @@
+import { time } from "framer-motion";
 
 export const wedding = {
   groom: "Atul",
@@ -15,40 +16,35 @@ export const wedding = {
       label: "A BLESSED BEGINNING",
       name: "Tilak",
       date: "Saturday, 5 December 2026",
-      time: "5:13 PM",
-      venue:
+      time:
         "Near Madarpur Primary School, Bihta Sermera Six Lane, Village Madarpur, PO – Jatt Dumari, PS – Punpun, Patna, Bihar – 804453",
     },
     {
       label: "A DAY OF TURMERIC & JOY",
       name: "Haldi",
       date: "Wednesday, 9 December 2026",
-      time: "5:14 PM",
-      venue:
+      time:
         "Near Madarpur Primary School, Bihta Sermera Six Lane, Village Madarpur, PO – Jatt Dumari, PS – Punpun, Patna, Bihar – 804453",
     },
     {
       label: "COLOURS, MUSIC & CELEBRATION",
       name: "Mehndi & Sangeet",
       date: "Thursday, 10 December 2026",
-      time: "Time to be announced",
-      venue:
+     
+      time:
         "Near Madarpur Primary School, Bihta Sermera Six Lane, Village Madarpur, PO – Jatt Dumari, PS – Punpun, Patna, Bihar – 804453",
     },
     {
       label: "THE WEDDING DAY",
       name: "Baraat",
       date: "Friday, 11 December 2026",
-      time: "9:00 AM",
-      venue:
-        "Prasidhi Palace, Near Maa Kali Mandir, Naini, Prayagraj, Uttar Pradesh",
+      time: "Will depart at 9:00 am from Prasidhi Palace, Near Maa Kali Mandir, Naini, Prayagraj, Uttar Pradesh",
     },
     {
       label: "A NIGHT TO REMEMBER",
       name: "Reception",
       date: "Sunday, 13 December 2026",
-      time: "5:30 PM",
-      venue:
+      time:
         "Near Madarpur Primary School, Bihta Sermera Six Lane, Village Madarpur, PO – Jatt Dumari, PS – Punpun, Patna, Bihar – 804453",
     },
   ],

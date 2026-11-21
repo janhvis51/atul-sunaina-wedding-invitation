@@ -38,7 +38,7 @@ export const wedding = {
       label: "THE WEDDING DAY",
       name: "Baraat",
       date: "Friday, 11 December 2026",
-      time: "Will depart at 9:00 am from Prasidhi Palace, Near Maa Kali Mandir, Naini, Prayagraj, Uttar Pradesh",
+      time: "Will depart at 9:00 am from Near Madarpur Primary School, Bihta Sermera Six Lane, Village Madarpur, PO – Jatt Dumari, PS – Punpun, Patna, Bihar – 804453",
     },
     {
       label: "A NIGHT TO REMEMBER",

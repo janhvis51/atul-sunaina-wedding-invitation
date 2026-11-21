@@ -39,7 +39,7 @@ export const wedding = {
   label: "THE WEDDING DAY",
   name: "Baraat",
   date: "Friday, 11 December 2026",
-  time: "Will depart at 9:00 PM",
+  time: "Will depart at 9:00 AM",
   from: "Near Madarpur Primary School, Bihta Sermera Six Lane, Village Madarpur, PO – Jatt Dumari, PS – Punpun, Patna, Bihar – 804453",
   to: "Sundar Vatika, Mahewa East, Naini, Prayagraj, Uttar Pradesh",
   mapLink: "https://maps.app.goo.gl/EVWQJcEmxKDecpsn9?g_st=iw",

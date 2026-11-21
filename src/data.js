@@ -53,5 +53,5 @@ export const wedding = {
     },
   ],
 
-  music: "/music.mp3",
+  music: "/music.wav",
 };
